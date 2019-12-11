@@ -76,15 +76,19 @@ namespace fp_curs_10_12_2019
                     ++count;
                     Console.Write($"{j} ");
                 }
+
+                if(count >= n)
+                {
+                    break;
+                }
             }
         }
-
      
         private static void Tmod2(int n)
         {
             Console.WriteLine();
             int count = 0;
-            for (int i = 1; i <= n; i++)
+            for (int i = 1; i <= n && count < n; i++)
             {
                 for (int j = i; j <= 2 * i - 1 && count < n; j++)
                 {
