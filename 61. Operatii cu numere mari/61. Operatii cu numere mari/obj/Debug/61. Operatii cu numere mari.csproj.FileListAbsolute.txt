@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\61. Operatii cu numere mari\61. Operatii cu numere mari\bin\Debug\_61.Operatii_cu_numere_mari.exe.config
+C:\Users\EYO\source\repos\61. Operatii cu numere mari\61. Operatii cu numere mari\bin\Debug\_61.Operatii_cu_numere_mari.exe
+C:\Users\EYO\source\repos\61. Operatii cu numere mari\61. Operatii cu numere mari\bin\Debug\_61.Operatii_cu_numere_mari.pdb
+C:\Users\EYO\source\repos\61. Operatii cu numere mari\61. Operatii cu numere mari\obj\Debug\61. Operatii cu numere mari.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\61. Operatii cu numere mari\61. Operatii cu numere mari\obj\Debug\_61.Operatii_cu_numere_mari.exe
+C:\Users\EYO\source\repos\61. Operatii cu numere mari\61. Operatii cu numere mari\obj\Debug\_61.Operatii_cu_numere_mari.pdb
