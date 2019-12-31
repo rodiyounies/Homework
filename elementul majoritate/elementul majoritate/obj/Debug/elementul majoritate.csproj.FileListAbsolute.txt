@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\elementul majoritate\elementul majoritate\bin\Debug\elementul majoritate.exe.config
+C:\Users\EYO\source\repos\elementul majoritate\elementul majoritate\bin\Debug\elementul majoritate.exe
+C:\Users\EYO\source\repos\elementul majoritate\elementul majoritate\bin\Debug\elementul majoritate.pdb
+C:\Users\EYO\source\repos\elementul majoritate\elementul majoritate\obj\Debug\elementul majoritate.exe
+C:\Users\EYO\source\repos\elementul majoritate\elementul majoritate\obj\Debug\elementul majoritate.pdb
+C:\Users\EYO\source\repos\elementul majoritate\elementul majoritate\obj\Debug\elementul majoritate.csprojAssemblyReference.cache
