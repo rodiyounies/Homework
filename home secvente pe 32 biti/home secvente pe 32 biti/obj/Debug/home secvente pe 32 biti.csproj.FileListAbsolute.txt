@@ -1,0 +1,6 @@
+C:\development\projects\csharp\home secvente pe 32 biti\home secvente pe 32 biti\bin\Debug\home secvente pe 32 biti.exe.config
+C:\development\projects\csharp\home secvente pe 32 biti\home secvente pe 32 biti\bin\Debug\home secvente pe 32 biti.exe
+C:\development\projects\csharp\home secvente pe 32 biti\home secvente pe 32 biti\bin\Debug\home secvente pe 32 biti.pdb
+C:\development\projects\csharp\home secvente pe 32 biti\home secvente pe 32 biti\obj\Debug\home secvente pe 32 biti.csprojAssemblyReference.cache
+C:\development\projects\csharp\home secvente pe 32 biti\home secvente pe 32 biti\obj\Debug\home secvente pe 32 biti.exe
+C:\development\projects\csharp\home secvente pe 32 biti\home secvente pe 32 biti\obj\Debug\home secvente pe 32 biti.pdb

@@ -1,0 +1,6 @@
+C:\development\projects\csharp\bcd conversion\bcd conversion\bin\Debug\BCD Conversion.exe.config
+C:\development\projects\csharp\bcd conversion\bcd conversion\bin\Debug\BCD Conversion.exe
+C:\development\projects\csharp\bcd conversion\bcd conversion\bin\Debug\BCD Conversion.pdb
+C:\development\projects\csharp\bcd conversion\bcd conversion\obj\Debug\bcd conversion.csprojAssemblyReference.cache
+C:\development\projects\csharp\bcd conversion\bcd conversion\obj\Debug\BCD Conversion.exe
+C:\development\projects\csharp\bcd conversion\bcd conversion\obj\Debug\BCD Conversion.pdb
