@@ -1,0 +1,12 @@
+C:\development\projects\csharp\conversia numerelor in baze diferite\conversia numerelor in baze diferite\bin\Debug\conversia numerelor in baze diferite.exe.config
+C:\development\projects\csharp\conversia numerelor in baze diferite\conversia numerelor in baze diferite\bin\Debug\conversia numerelor in baze diferite.exe
+C:\development\projects\csharp\conversia numerelor in baze diferite\conversia numerelor in baze diferite\bin\Debug\conversia numerelor in baze diferite.pdb
+C:\development\projects\csharp\conversia numerelor in baze diferite\conversia numerelor in baze diferite\obj\Debug\conversia numerelor in baze diferite.csprojAssemblyReference.cache
+C:\development\projects\csharp\conversia numerelor in baze diferite\conversia numerelor in baze diferite\obj\Debug\conversia numerelor in baze diferite.exe
+C:\development\projects\csharp\conversia numerelor in baze diferite\conversia numerelor in baze diferite\obj\Debug\conversia numerelor in baze diferite.pdb
+C:\development\projects\csharp\home tests\conversia numerelor in baze diferite\conversia numerelor in baze diferite\bin\Debug\conversia numerelor in baze diferite.exe.config
+C:\development\projects\csharp\home tests\conversia numerelor in baze diferite\conversia numerelor in baze diferite\bin\Debug\conversia numerelor in baze diferite.exe
+C:\development\projects\csharp\home tests\conversia numerelor in baze diferite\conversia numerelor in baze diferite\bin\Debug\conversia numerelor in baze diferite.pdb
+C:\development\projects\csharp\home tests\conversia numerelor in baze diferite\conversia numerelor in baze diferite\obj\Debug\conversia numerelor in baze diferite.csprojAssemblyReference.cache
+C:\development\projects\csharp\home tests\conversia numerelor in baze diferite\conversia numerelor in baze diferite\obj\Debug\conversia numerelor in baze diferite.exe
+C:\development\projects\csharp\home tests\conversia numerelor in baze diferite\conversia numerelor in baze diferite\obj\Debug\conversia numerelor in baze diferite.pdb
