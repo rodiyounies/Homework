@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\56. Se dau 2 vectori s si p\56. Se dau 2 vectori s si p\bin\Debug\_56.Se_dau_2_vectori_s_si_p.exe.config
+C:\Users\EYO\source\repos\56. Se dau 2 vectori s si p\56. Se dau 2 vectori s si p\bin\Debug\_56.Se_dau_2_vectori_s_si_p.exe
+C:\Users\EYO\source\repos\56. Se dau 2 vectori s si p\56. Se dau 2 vectori s si p\bin\Debug\_56.Se_dau_2_vectori_s_si_p.pdb
+C:\Users\EYO\source\repos\56. Se dau 2 vectori s si p\56. Se dau 2 vectori s si p\obj\Debug\56. Se dau 2 vectori s si p.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\56. Se dau 2 vectori s si p\56. Se dau 2 vectori s si p\obj\Debug\_56.Se_dau_2_vectori_s_si_p.exe
+C:\Users\EYO\source\repos\56. Se dau 2 vectori s si p\56. Se dau 2 vectori s si p\obj\Debug\_56.Se_dau_2_vectori_s_si_p.pdb
