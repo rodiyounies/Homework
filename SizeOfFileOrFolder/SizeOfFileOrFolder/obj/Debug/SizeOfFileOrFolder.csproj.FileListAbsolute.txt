@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\SizeOfFileOrFolder\SizeOfFileOrFolder\bin\Debug\SizeOfFileOrFolder.exe.config
+C:\Users\EYO\source\repos\SizeOfFileOrFolder\SizeOfFileOrFolder\bin\Debug\SizeOfFileOrFolder.exe
+C:\Users\EYO\source\repos\SizeOfFileOrFolder\SizeOfFileOrFolder\bin\Debug\SizeOfFileOrFolder.pdb
+C:\Users\EYO\source\repos\SizeOfFileOrFolder\SizeOfFileOrFolder\obj\Debug\SizeOfFileOrFolder.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\SizeOfFileOrFolder\SizeOfFileOrFolder\obj\Debug\SizeOfFileOrFolder.exe
+C:\Users\EYO\source\repos\SizeOfFileOrFolder\SizeOfFileOrFolder\obj\Debug\SizeOfFileOrFolder.pdb
