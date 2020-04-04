@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Sortare localizata\Sortare localizata\bin\Debug\Sortare localizata.exe.config
+C:\Users\EYO\source\repos\Sortare localizata\Sortare localizata\bin\Debug\Sortare localizata.exe
+C:\Users\EYO\source\repos\Sortare localizata\Sortare localizata\bin\Debug\Sortare localizata.pdb
+C:\Users\EYO\source\repos\Sortare localizata\Sortare localizata\obj\Debug\Sortare localizata.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Sortare localizata\Sortare localizata\obj\Debug\Sortare localizata.exe
+C:\Users\EYO\source\repos\Sortare localizata\Sortare localizata\obj\Debug\Sortare localizata.pdb
