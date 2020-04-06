@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Operatii cu nr rationale\Operatii cu nr rationale\bin\Debug\Operatii cu nr rationale.exe.config
+C:\Users\EYO\source\repos\Operatii cu nr rationale\Operatii cu nr rationale\bin\Debug\Operatii cu nr rationale.exe
+C:\Users\EYO\source\repos\Operatii cu nr rationale\Operatii cu nr rationale\bin\Debug\Operatii cu nr rationale.pdb
+C:\Users\EYO\source\repos\Operatii cu nr rationale\Operatii cu nr rationale\obj\Debug\Operatii cu nr rationale.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Operatii cu nr rationale\Operatii cu nr rationale\obj\Debug\Operatii cu nr rationale.exe
+C:\Users\EYO\source\repos\Operatii cu nr rationale\Operatii cu nr rationale\obj\Debug\Operatii cu nr rationale.pdb
