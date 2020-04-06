@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\NumarMare Clasa\NumarMare Clasa\bin\Debug\NumarMare Clasa.exe.config
+C:\Users\EYO\source\repos\NumarMare Clasa\NumarMare Clasa\bin\Debug\NumarMare Clasa.exe
+C:\Users\EYO\source\repos\NumarMare Clasa\NumarMare Clasa\bin\Debug\NumarMare Clasa.pdb
+C:\Users\EYO\source\repos\NumarMare Clasa\NumarMare Clasa\obj\Debug\NumarMare Clasa.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\NumarMare Clasa\NumarMare Clasa\obj\Debug\NumarMare Clasa.exe
+C:\Users\EYO\source\repos\NumarMare Clasa\NumarMare Clasa\obj\Debug\NumarMare Clasa.pdb
