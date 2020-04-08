@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Operatii cu nr complexe\Operatii cu nr complexe\bin\Debug\Operatii cu nr complexe.exe.config
+C:\Users\EYO\source\repos\Operatii cu nr complexe\Operatii cu nr complexe\bin\Debug\Operatii cu nr complexe.exe
+C:\Users\EYO\source\repos\Operatii cu nr complexe\Operatii cu nr complexe\bin\Debug\Operatii cu nr complexe.pdb
+C:\Users\EYO\source\repos\Operatii cu nr complexe\Operatii cu nr complexe\obj\Debug\Operatii cu nr complexe.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Operatii cu nr complexe\Operatii cu nr complexe\obj\Debug\Operatii cu nr complexe.exe
+C:\Users\EYO\source\repos\Operatii cu nr complexe\Operatii cu nr complexe\obj\Debug\Operatii cu nr complexe.pdb
