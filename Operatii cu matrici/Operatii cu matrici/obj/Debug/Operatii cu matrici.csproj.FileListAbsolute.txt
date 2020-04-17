@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Operatii cu matrici\Operatii cu matrici\bin\Debug\Operatii cu matrici.exe.config
+C:\Users\EYO\source\repos\Operatii cu matrici\Operatii cu matrici\bin\Debug\Operatii cu matrici.exe
+C:\Users\EYO\source\repos\Operatii cu matrici\Operatii cu matrici\bin\Debug\Operatii cu matrici.pdb
+C:\Users\EYO\source\repos\Operatii cu matrici\Operatii cu matrici\obj\Debug\Operatii cu matrici.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Operatii cu matrici\Operatii cu matrici\obj\Debug\Operatii cu matrici.exe
+C:\Users\EYO\source\repos\Operatii cu matrici\Operatii cu matrici\obj\Debug\Operatii cu matrici.pdb
