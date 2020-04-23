@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\My calendar\My calendar\bin\Debug\My calendar.exe.config
+C:\Users\EYO\source\repos\My calendar\My calendar\bin\Debug\My calendar.exe
+C:\Users\EYO\source\repos\My calendar\My calendar\bin\Debug\My calendar.pdb
+C:\Users\EYO\source\repos\My calendar\My calendar\obj\Debug\My calendar.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\My calendar\My calendar\obj\Debug\My calendar.exe
+C:\Users\EYO\source\repos\My calendar\My calendar\obj\Debug\My calendar.pdb
