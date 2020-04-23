@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Clasa Elevi\Clasa Elevi\bin\Debug\Clasa Elevi.exe.config
+C:\Users\EYO\source\repos\Clasa Elevi\Clasa Elevi\bin\Debug\Clasa Elevi.exe
+C:\Users\EYO\source\repos\Clasa Elevi\Clasa Elevi\bin\Debug\Clasa Elevi.pdb
+C:\Users\EYO\source\repos\Clasa Elevi\Clasa Elevi\obj\Debug\Clasa Elevi.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Clasa Elevi\Clasa Elevi\obj\Debug\Clasa Elevi.exe
+C:\Users\EYO\source\repos\Clasa Elevi\Clasa Elevi\obj\Debug\Clasa Elevi.pdb
