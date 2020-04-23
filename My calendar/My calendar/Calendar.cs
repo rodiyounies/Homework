@@ -8,11 +8,13 @@ namespace My_calendar
 {
     class Calendar
     {
+        private String calendarId;
         private Person person;
         private List<CalendarEvent> events;
 
         public Calendar(Person person, List<CalendarEvent> events)
         {
+            calendarId = Guid.NewGuid().ToString();
             this.person = person;
             this.events = events;
         }
@@ -27,17 +29,56 @@ namespace My_calendar
             return this.events;
         }
 
+        public String GetCalendarId()
+        {
+            return this.calendarId;
+        }
+
+        public List<CalendarEvent> GetEvents(String name)
+        {
+            List<CalendarEvent> matchEvents = new List<CalendarEvent>();
+            foreach(CalendarEvent ce in events)
+            {
+                if(ce.GetName().Equals(name))
+                {
+                    matchEvents.Add(ce);
+                }
+            }
+
+            return matchEvents;
+        }
+
+        public List<CalendarEvent> GetEvents(DateTime from, DateTime to)
+        {
+            List<CalendarEvent> matchEvents = new List<CalendarEvent>();
+            
+
+            // CompareTo()
+            // Less than zero : If this instance is earlier than value.
+            // Zero: If this instance is the same as value.
+            // Greater than zero : If this instance is later than value.
+            foreach (CalendarEvent ce in this.events)
+            {
+                if (ce.GetFrom().CompareTo(from) >= 0 && ce.GetFrom().CompareTo(to) <= 0 ||
+                    ce.GetTo().CompareTo(from) >= 0 && ce.GetTo().CompareTo(to) <= 0)
+                {
+                    matchEvents.Add(ce);
+                }
+            }
+
+            return matchEvents;
+        }
         public bool isAvailable(DateTime from, DateTime to)
         {
-            Console.WriteLine("There are [" + events.Count() + "] events");
+            //Console.WriteLine("There are [" + events.Count() + "] events");
             foreach (CalendarEvent ce in this.events)
             {                
                 if (ce.GetFrom().Year == from.Year && 
                     ce.GetFrom().Month == from.Month &&
                     ce.GetFrom().Day == from.Day)
                 {
-                    Console.WriteLine("Testing for " + ce.GetFrom() + ", " + ce.GetTo());
-                    Console.WriteLine("from/to " + from + "/" + to);
+                    //Console.WriteLine("Testing for " + ce.GetFrom() + ", " + ce.GetTo());
+                    //Console.WriteLine("from/to " + from + "/" + to);
                     // Less than zero : If this instance is earlier than value.
                     // Zero: If this instance is the same as value.
                     // Greater than zero : If this instance is later than value.

@@ -20,6 +20,7 @@ namespace My_calendar
             {
                 List<CalendarEvent> personEvents = GetPersonEvents(person, events);
 
+                //Console.WriteLine("Adding " + personEvents.Count() + " For " + person.GetName());
                 Calendar calendar = new Calendar(person, personEvents);
                 ledger.AddCalendar(calendar);
             }

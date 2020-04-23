@@ -54,7 +54,7 @@ namespace My_calendar
 
         public String GetName()
         {
-            return this.lastName + " " + this.lastName;
+            return this.firstName + " " + this.lastName;
         }
 
         public void SetEmail(String email)

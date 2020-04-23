@@ -20,7 +20,7 @@ namespace My_calendar
             this.calendars.Add(calendar);
         }
 
-        public void RemoveCalendar(Calendar calendar)
+        public void Delete(Calendar calendar)
         {
             this.calendars.Remove(calendar);
         }
@@ -53,6 +53,33 @@ namespace My_calendar
             }
 
             return calendar;
+        }
+
+        public List<CalendarEvent> GetEvents(String name)
+        {
+            List<CalendarEvent> matchEvents = new List<CalendarEvent>();
+            foreach (Calendar calendar in calendars)
+            {
+                List<CalendarEvent>  cevents = calendar.GetEvents(name);
+                if (cevents != null && cevents.Count() > 0) {
+                    //Console.WriteLine("calendar of [" + calendar.GetPerson().GetId() + "] has: " + cevents.Count() + "events");
+                    matchEvents.AddRange(cevents);
+                }
+            }
+
+            return matchEvents;
+        }
+
+        public List<CalendarEvent> GetEvents(Person person, DateTime from, DateTime to)
+        {
+            List<CalendarEvent> matchEvents = new List<CalendarEvent>();
+            Calendar calendar = getCalendar(person);
+            if(calendar != null)
+            {
+                return calendar.GetEvents(from, to);
+            }
+
+            return matchEvents;
         }
     }
 }
