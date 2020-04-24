@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Elev.cs" />
+    <Compile Include="EleviReader.cs" />
+    <Compile Include="EleviSort.cs" />
+    <Compile Include="EleviWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

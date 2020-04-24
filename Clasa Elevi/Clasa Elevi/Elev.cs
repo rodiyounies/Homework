@@ -9,7 +9,10 @@ namespace Clasa_Elevi
 
     class Elev: IComparable
     {
-       
+        public Elev()
+        {
+
+        }
 
         public Elev (string firstName, string lastName, double gradesArithmeticAverage)
         {
@@ -44,6 +47,14 @@ namespace Clasa_Elevi
             }
             else return -1;
 
+        }
+
+
+        public void Copy(Elev a)
+        {
+            this.firstName = a.firstName;
+            this.lastName = a.lastName;
+            this.gradesArithmeticAverage = a.gradesArithmeticAverage;
         }
 
         public override string ToString()
