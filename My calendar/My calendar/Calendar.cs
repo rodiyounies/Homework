@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace My_calendar
 {
+    /// <summary>Class members: CalendarId(Id-ul calendarului unei persoane coincide cu ID-ul persoanei), Person, List <CalendarEvent>.
+    /// Clasa responsabila cu crearea evenimentelor, returnarea evenimentelor, returnarea evenimentelor dintr-un interval de timp specific, returnarea unui eveniment dupa nume, determinarea disponibilitatii intr-un anumit interval de timp. 
+    /// </summary>
+
     class Calendar
     {
         private String calendarId;
@@ -22,6 +26,14 @@ namespace My_calendar
         public Person GetPerson()
         {
             return this.person;
+        }
+
+        public void AddEvent(String eventName, DateTime from, DateTime to)
+        {
+            ObjectsFactory objectsFactory = new ObjectsFactory();
+            CalendarEvent ce = objectsFactory.CreateEvent(this.person.GetId(), eventName, from, to);
+
+            this.events.Add(ce);
         }
 
         public List<CalendarEvent> GetEvents()
@@ -48,15 +60,14 @@ namespace My_calendar
             return matchEvents;
         }
 
+        // CompareTo()
+        // Less than zero : If this instance is earlier than value.
+        // Zero: If this instance is the same as value.
+        // Greater than zero : If this instance is later than value.
         public List<CalendarEvent> GetEvents(DateTime from, DateTime to)
         {
             List<CalendarEvent> matchEvents = new List<CalendarEvent>();
-            
-
-            // CompareTo()
-            // Less than zero : If this instance is earlier than value.
-            // Zero: If this instance is the same as value.
-            // Greater than zero : If this instance is later than value.
+ 
             foreach (CalendarEvent ce in this.events)
             {
                 if (ce.GetFrom().CompareTo(from) >= 0 && ce.GetFrom().CompareTo(to) <= 0 ||
@@ -68,20 +79,18 @@ namespace My_calendar
 
             return matchEvents;
         }
+
+        // Less than zero : If this instance is earlier than value.
+        // Zero: If this instance is the same as value.
+        // Greater than zero : If this instance is later than value.
         public bool isAvailable(DateTime from, DateTime to)
         {
-            //Console.WriteLine("There are [" + events.Count() + "] events");
             foreach (CalendarEvent ce in this.events)
             {                
                 if (ce.GetFrom().Year == from.Year && 
                     ce.GetFrom().Month == from.Month &&
                     ce.GetFrom().Day == from.Day)
-                {
-                    //Console.WriteLine("Testing for " + ce.GetFrom() + ", " + ce.GetTo());
-                    //Console.WriteLine("from/to " + from + "/" + to);
-                    // Less than zero : If this instance is earlier than value.
-                    // Zero: If this instance is the same as value.
-                    // Greater than zero : If this instance is later than value.
+                {                    
                     if (from.CompareTo(ce.GetFrom()) == 0 && to.CompareTo(ce.GetTo()) == 0 )
                     {
                         return false;

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace My_calendar
 {
+    /// <summary>
+    /// Clasa folosita pt crearea persoanelor 
+    /// </summary>
     class ObjectsFactory
     {
         public ObjectsFactory()
@@ -41,6 +44,18 @@ namespace My_calendar
             ce.SetFrom(dtFrom);
             ce.SetTo(dtTo);
             
+            return ce;
+        }
+
+        public CalendarEvent CreateEvent(String personId, String name, DateTime dtFrom, DateTime dtTo)
+        {
+            CalendarEvent ce = new CalendarEvent();
+
+            ce.SetPersonId(personId);
+            ce.SetName(name);
+            ce.SetFrom(dtFrom);
+            ce.SetTo(dtTo);
+
             return ce;
         }
     }

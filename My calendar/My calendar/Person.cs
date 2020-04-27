@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace My_calendar
 {
+    /// <summary>Class members: id, firstName, lastName, dob(date of birth), email. 
+    /// Entity class- reprezinta abstractizarea persoanei (se pot adauga oricati membri dorim sau de cati avem nevoie)
+    /// </summary>
     class Person
     {
         private String id;

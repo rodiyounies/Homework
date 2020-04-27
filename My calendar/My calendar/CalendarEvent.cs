@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace My_calendar
 {
+    /// <summary>Class memebers: name, from, to, personID. 
+    /// Clasa creata pt gestionarea unui eveniment. 
+    /// </summary>
     class CalendarEvent
     {
         private String name;

@@ -7,6 +7,9 @@ using System.IO;
 
 namespace My_calendar
 {
+    /// <summary>Parcing din fisiere de tip CVS. 
+    /// Clasa creata pt parcingul datelor sursa (din fisiere diferite) pt persoane si evenimente. 
+    /// </summary>
     class CSVFileReadStrategy
     {
         public CSVFileReadStrategy()

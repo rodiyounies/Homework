@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace My_calendar
 {
+    /// <summary>Class member: Ledger;
+    /// Clasa creata pt popularea clasei Ledger cu persoane si evenimente. 
+    /// </summary>
     class LedgerPopulator
     {
         private Ledger ledger;

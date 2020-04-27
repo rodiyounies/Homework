@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace My_calendar
 {
+    /// <summary>
+    /// Clasa pt evidenta tuturor calendarelor si evenimentelor.
+    /// </summary>
     class Ledger
     {
+        private GreedyEventScheduler eventScheduler;
         private List<Calendar> calendars;
 
         public Ledger()
         {
+            this.eventScheduler = new GreedyEventScheduler(this);
             this.calendars = new List<Calendar>();
         }
 
@@ -27,17 +32,7 @@ namespace My_calendar
 
         public Calendar getCalendar(Person person)
         {
-            Calendar calendar = null;
-            foreach (Calendar c in calendars)
-            {
-                if (person.GetId().Equals(c.GetPerson().GetId()))
-                {
-                    calendar = c;
-                    break;
-                }
-            }
-
-            return calendar;
+            return getCalendar(person.GetId());
         }
 
         public Calendar getCalendar(String personId)
@@ -60,8 +55,9 @@ namespace My_calendar
             List<CalendarEvent> matchEvents = new List<CalendarEvent>();
             foreach (Calendar calendar in calendars)
             {
-                List<CalendarEvent>  cevents = calendar.GetEvents(name);
-                if (cevents != null && cevents.Count() > 0) {
+                List<CalendarEvent> cevents = calendar.GetEvents(name);
+                if (cevents != null && cevents.Count() > 0)
+                {
                     //Console.WriteLine("calendar of [" + calendar.GetPerson().GetId() + "] has: " + cevents.Count() + "events");
                     matchEvents.AddRange(cevents);
                 }
@@ -74,12 +70,17 @@ namespace My_calendar
         {
             List<CalendarEvent> matchEvents = new List<CalendarEvent>();
             Calendar calendar = getCalendar(person);
-            if(calendar != null)
+            if (calendar != null)
             {
                 return calendar.GetEvents(from, to);
             }
 
             return matchEvents;
+        }
+
+        public void ScheduleEvent(List<Person> persons, String eventName, DateTime from, int forHowLongInMinutes)
+        {
+            eventScheduler.ScheduleEvent(persons, eventName, from, forHowLongInMinutes);
         }
     }
 }

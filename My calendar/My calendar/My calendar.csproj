@@ -45,10 +45,9 @@
   <ItemGroup>
     <Compile Include="Calendar.cs" />
     <Compile Include="CSVFileReadStrategy.cs" />
-    <Compile Include="EventScheduler.cs" />
+    <Compile Include="GreedyEventScheduler.cs" />
     <Compile Include="Ledger.cs" />
     <Compile Include="CalendarEvent.cs" />
-    <Compile Include="EventDate.cs" />
     <Compile Include="LedgerPopulator.cs" />
     <Compile Include="ObjectsFactory.cs" />
     <Compile Include="Person.cs" />
