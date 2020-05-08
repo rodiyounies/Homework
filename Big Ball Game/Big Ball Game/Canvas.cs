@@ -8,13 +8,24 @@ namespace Big_Ball_Game
 {
     class Canvas
     {
-        private int width;
-        private int height;
+        public int width { get; set; }
+        public int height { get; set; }
+
+        public Canvas()
+        {
+            this.width = 1000;
+            this.height = 1000;
+        }
 
         public Canvas(int width, int height)
         {
             this.width = width;
             this.height = height;
+        }
+
+        public override string ToString()
+        {
+            return "Canvas: width = [" + this.width + "], height = [" + this.height + "]";
         }
     }
 }

@@ -8,8 +8,8 @@ namespace Big_Ball_Game
 {
     class Position
     {
-        private int x;
-        private int y;
+        private int x { get; }
+        private int y { get; }
     
         
         public Position()
@@ -23,5 +23,9 @@ namespace Big_Ball_Game
             this.y = y;
         }
 
+        public override string ToString()
+        {
+            return "x = [" + this.x + "], y = [" + this.y + "]";
+        }
     }
 }

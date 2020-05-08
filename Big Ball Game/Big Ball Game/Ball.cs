@@ -9,10 +9,10 @@ namespace Big_Ball_Game
 {
     class Ball
     {
-        private float radius;
-        private Position position;
-        private Color color;
-        private Direction direction;
+        public float radius { get; set; }
+        public Position position { get; }
+        public Color color { get; }
+        public Direction direction { get; }
 
         public Ball(float radius, Position position, Color color, Direction direction)
         {

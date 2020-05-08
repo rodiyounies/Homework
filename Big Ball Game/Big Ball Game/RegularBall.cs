@@ -9,9 +9,16 @@ namespace Big_Ball_Game
 {
     class RegularBall : Ball
     {
-        public RegularBall(float radius, Position position, Color color, Direction direction)
+        public RegularBall(float radius, Position position, Color color, Direction direction) 
+            : base(radius, position, color, direction)
         {
-            base(radius, position, color, direction);
+            
+        }
+
+        public override string ToString()
+        {
+            return "Regular Ball: radius = [" + base.radius + "], Position = [ " + base.position + "]," +
+                ", Color = [" + base.color + "]," + "Direction = [" + direction + "]";
         }
     }
 }

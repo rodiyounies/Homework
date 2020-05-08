@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Big Ball Game\Big Ball Game\bin\Debug\Big Ball Game.exe.config
+C:\Users\EYO\source\repos\Big Ball Game\Big Ball Game\bin\Debug\Big Ball Game.exe
+C:\Users\EYO\source\repos\Big Ball Game\Big Ball Game\bin\Debug\Big Ball Game.pdb
+C:\Users\EYO\source\repos\Big Ball Game\Big Ball Game\obj\Debug\Big Ball Game.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Big Ball Game\Big Ball Game\obj\Debug\Big Ball Game.exe
+C:\Users\EYO\source\repos\Big Ball Game\Big Ball Game\obj\Debug\Big Ball Game.pdb
