@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ball.cs" />
+    <Compile Include="BallsRenderer.cs" />
     <Compile Include="Canvas.cs" />
     <Compile Include="Direction.cs" />
     <Compile Include="Initializer.cs" />

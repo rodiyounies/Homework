@@ -7,12 +7,23 @@ using System.Threading.Tasks;
 
 namespace Big_Ball_Game
 {
-    class Ball
+    abstract class Ball
     {
+        public enum BallType
+        {
+            UNKNOWN,
+            REGULAR_BALL,
+            MONSTER_BALL,
+            REPELLENT_BALL
+        }
+
+        public string id { get; }
+        public BallType ballType { get; set; }
         public float radius { get; set; }
         public Position position { get; }
         public Color color { get; }
         public Direction direction { get; }
+        public bool isDone { get; }
 
         public Ball(float radius, Position position, Color color, Direction direction)
         {
@@ -20,6 +31,16 @@ namespace Big_Ball_Game
             this.position = position;
             this.color = color;
             this.direction = direction;
+
+            id = System.Guid.NewGuid().ToString();
+            isDone = false;
+            ballType = BallType.UNKNOWN;
+        }
+
+        abstract public void move(Canvas canvas);
+        public virtual void swallow(Ball ball)
+        {
+
         }
     }
 }

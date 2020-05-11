@@ -8,23 +8,26 @@ namespace Big_Ball_Game
 {
     class Direction
     {
-        private int dx { get; }
-        private int dy { get; }
+        public int dx { get; }
+        public int dy { get; }
+        public int speed { get; }
 
         public Direction()
         {
             this.dx = 0;
             this.dy = 0;
+            this.speed = 0;
         }
-        public Direction(int dx, int dy)
+        public Direction(int dx, int dy, int speed)
         {
             this.dx = dx;
             this.dy = dy;
+            this.speed = speed;
         }
 
         public override string ToString()
         {
-            return "dx = [" + this.dx + "], dy = [" + this.dy + "]";
+            return "dx = [" + this.dx + "], dy = [" + this.dy + "], speed = [" + this.speed + "]";
         }
     }
 }

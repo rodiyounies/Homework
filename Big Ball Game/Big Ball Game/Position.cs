@@ -8,8 +8,8 @@ namespace Big_Ball_Game
 {
     class Position
     {
-        private int x { get; }
-        private int y { get; }
+        public int x { set;  get; }
+        public int y { set;  get; }
     
         
         public Position()
