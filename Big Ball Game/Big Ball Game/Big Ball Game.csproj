@@ -44,9 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BallUtils.cs" />
+    <Compile Include="CircleCollission.cs" />
     <Compile Include="Ball.cs" />
     <Compile Include="BallsRenderer.cs" />
     <Compile Include="Canvas.cs" />
+    <Compile Include="CircleCollissionStrategy.cs" />
+    <Compile Include="CircleCrossingsDetectionStrategy.cs" />
     <Compile Include="Direction.cs" />
     <Compile Include="Initializer.cs" />
     <Compile Include="MonsterBall.cs" />

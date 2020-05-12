@@ -10,39 +10,57 @@ namespace Big_Ball_Game
     {
         private List<Ball> balls;
         private Canvas canvas;
+        private CircleCrossingsDetectionStrategy crossingStrategy;
 
         public BallsRenderer(List<Ball> balls, Canvas canvas)
         {
             this.balls = balls;
             this.canvas = canvas;
+
+            crossingStrategy = new CircleCrossingsDetectionStrategy();
         }
 
         public void render()
         {
-            while (isDone() == true)
+            Console.WriteLine("Render started");
+            while (isAllDone() == false)
             {
                 foreach (Ball ball in balls)
                 {
-                    ball.move(canvas);
-                    handleCollisions(ball);
+                    process(ball);
+                    System.Threading.Thread.Sleep(1000);
                 }
             }
+
+            Console.WriteLine();
+            Console.WriteLine("It is all done!");
         }
 
-        private void handleCollisions(Ball movingBall)
+        private void process(Ball movingBall)
         {
+            Console.WriteLine("Moving Ball before moving: " + movingBall);
+            movingBall.move(canvas);
+            Console.WriteLine("Moving Ball after moving: " + movingBall);
+
             foreach (Ball ball in balls)
             {
-                if(movingBall.id.Equals(ball.id))
+                if (movingBall.id.Equals(ball.id) || 
+                    ball.getType() == Ball.BallType.MONSTER_BALL || ball.isDone == true)
                 {
                     continue;
                 }
 
-
+                bool crosssingDetected = crossingStrategy.areCrossing(ball, movingBall);
+                if (crosssingDetected)
+                {
+                    movingBall.swallow(ball);
+                    Console.WriteLine("Moving Ball After collision: " + movingBall);
+                    Console.WriteLine("Ball After collision: " + ball);
+                }
             }
         }
 
-        private bool isDone()
+        private bool isAllDone()
         {
             bool isDone = true;
             foreach (Ball ball in balls)

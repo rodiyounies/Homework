@@ -20,10 +20,10 @@ namespace Big_Ball_Game
         public string id { get; }
         public BallType ballType { get; set; }
         public float radius { get; set; }
-        public Position position { get; }
-        public Color color { get; }
+        public Position position { set; get; }
+        public Color color { set;  get; }
         public Direction direction { get; }
-        public bool isDone { get; }
+        public bool isDone { set;  get; }
 
         public Ball(float radius, Position position, Color color, Direction direction)
         {
@@ -38,9 +38,10 @@ namespace Big_Ball_Game
         }
 
         abstract public void move(Canvas canvas);
-        public virtual void swallow(Ball ball)
-        {
 
-        }
+        virtual public BallType getType() { return BallType.UNKNOWN;  }
+
+        virtual public void swallow(Ball ball) { }
+        
     }
 }
