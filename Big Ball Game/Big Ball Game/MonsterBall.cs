@@ -25,19 +25,21 @@ namespace Big_Ball_Game
 
         }
 
-        public void swallow(RegularBall ball)
+        public BallType getType()
         {
-
+            return BallType.MONSTER_BALL;
         }
 
-        public void swallow(MonsterBall ball)
+        public void swallow(RegularBall ball)
         {
-
+            ball.isDone = true;
+            this.color = BallUtils.combineColors(this, ball);
+            this.radius += ball.radius;
         }
 
         public void swallow(RepellentBall ball)
         {
-
+            ball.radius = ball.radius / 2;
         }
     }
 }

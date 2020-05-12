@@ -33,6 +33,10 @@ namespace Big_Ball_Game
             }
 
 
+            BallsRenderer renderer = new BallsRenderer(balls, canvas);
+            renderer.render();
+
+
             Console.WriteLine("Press any key to continue");
             Console.ReadKey();
         }

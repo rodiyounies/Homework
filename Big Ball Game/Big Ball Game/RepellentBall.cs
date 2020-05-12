@@ -37,24 +37,32 @@ namespace Big_Ball_Game
             {
                 this.position.y = this.position.y - canvas.height;
             }
-
+;
             this.position.x = this.position.x + (this.direction.dx * this.direction.speed);
             this.position.y = this.position.y + (this.direction.dy * this.direction.speed);
         }
 
+        public override BallType getType()
+        {
+            return BallType.REPELLENT_BALL;
+        }
+
         public void swallow(RegularBall ball)
         {
-
+            this.color = BallUtils.combineColors(this, ball);
+            ball.direction.dx *= -1;
+            ball.direction.dy *= -1;
         }
 
         public void swallow(MonsterBall ball)
         {
-
+            this.radius = this.radius / 2;
         }
 
         public void swallow(RepellentBall ball)
         {
-
+            ball.color = BallUtils.combineColors(ball, this);
+            this.color = BallUtils.combineColors(this, ball);
         }
     }
 }

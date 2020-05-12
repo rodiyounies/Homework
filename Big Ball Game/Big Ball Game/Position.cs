@@ -9,7 +9,7 @@ namespace Big_Ball_Game
     class Position
     {
         public int x { set;  get; }
-        public int y { set;  get; }
+        public int y { set; get; }
     
         
         public Position()

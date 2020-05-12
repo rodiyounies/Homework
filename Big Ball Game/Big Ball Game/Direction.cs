@@ -8,9 +8,9 @@ namespace Big_Ball_Game
 {
     class Direction
     {
-        public int dx { get; }
-        public int dy { get; }
-        public int speed { get; }
+        public int dx { set;  get; }
+        public int dy { set;  get; }
+        public int speed { set;  get; }
 
         public Direction()
         {
