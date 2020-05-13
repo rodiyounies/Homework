@@ -9,7 +9,7 @@ namespace Big_Ball_Game
 {
     class RepellentBall : Ball
     {
-        public RepellentBall(float radius, Position position, Color color, Direction direction)
+        public RepellentBall(int radius, Position position, Color color, Direction direction)
             : base(radius, position, color, direction)
         {
             ballType = BallType.REPELLENT_BALL;
@@ -17,12 +17,13 @@ namespace Big_Ball_Game
 
         public override string ToString()
         {
-            return "Repellent Ball: radius = [" + base.radius + "], Position = [ " + base.position + "]," +
+            return "Repellent Ball: id = [" + base.id + "], radius = [" + base.radius + "], Position = [ " + base.position + "]," +
                 ", Color = [" + base.color + "]," + "Direction = [" + direction + "]";
         }
 
         public override void move(Canvas canvas)
         {
+            Console.WriteLine("Repellent Ball[{0}] is moving", this.id);
             if (isDone == true)
             {
                 return;
@@ -52,6 +53,18 @@ namespace Big_Ball_Game
             this.color = BallUtils.combineColors(this, ball);
             ball.direction.dx *= -1;
             ball.direction.dy *= -1;
+        }
+
+        public override void swallow(Ball ball)
+        {
+            if (ball.GetType() == typeof(MonsterBall))
+            {
+                swallow((MonsterBall)ball);
+            }
+            else if (ball.GetType() == typeof(RepellentBall))
+            {
+                swallow((RepellentBall)ball);
+            }
         }
 
         public void swallow(MonsterBall ball)

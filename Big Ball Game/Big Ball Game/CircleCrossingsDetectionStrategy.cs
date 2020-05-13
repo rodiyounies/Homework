@@ -22,7 +22,7 @@ namespace Big_Ball_Game
          * */
         public bool areCrossing(Ball a, Ball b)
         {
-            bool areBallsFarApart = true;
+            bool areBallsFarCrossing = false;
 
             int x1 = a.position.x;
             int y1 = a.position.y;
@@ -34,10 +34,11 @@ namespace Big_Ball_Game
             double d = Math.Sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2));
             if(d <= totalRadius)
             {
-                areBallsFarApart = false;
+                areBallsFarCrossing = true;
+                Console.WriteLine("Collission between {0}[{1}] & {2}[{3}]", a.ballType, a.id, b.ballType, b.id);
             }
-
-            return areBallsFarApart;
+            
+            return areBallsFarCrossing;
         }
     }
 }

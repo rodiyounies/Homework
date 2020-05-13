@@ -19,29 +19,30 @@ namespace Big_Ball_Game
 
         public string id { get; }
         public BallType ballType { get; set; }
-        public float radius { get; set; }
+        public int radius { get; set; }
         public Position position { set; get; }
         public Color color { set;  get; }
         public Direction direction { get; }
         public bool isDone { set;  get; }
 
-        public Ball(float radius, Position position, Color color, Direction direction)
+        public Ball(int radius, Position position, Color color, Direction direction)
         {
             this.radius = radius;
             this.position = position;
             this.color = color;
             this.direction = direction;
-
-            id = System.Guid.NewGuid().ToString();
+            
+            string[] ids = System.Guid.NewGuid().ToString().Split('-'); ;
+            id = ids[4];
             isDone = false;
             ballType = BallType.UNKNOWN;
         }
 
         abstract public void move(Canvas canvas);
 
-        virtual public BallType getType() { return BallType.UNKNOWN;  }
+        abstract public BallType getType();
 
-        virtual public void swallow(Ball ball) { }
+        abstract public void swallow(Ball ball);
         
     }
 }

@@ -31,7 +31,8 @@ namespace Big_Ball_Game
             foreach(Ball ball in balls) {
                 Console.WriteLine(ball);
             }
-
+            Console.WriteLine();
+            Console.WriteLine();
 
             BallsRenderer renderer = new BallsRenderer(balls, canvas);
             renderer.render();

@@ -27,8 +27,11 @@ namespace Big_Ball_Game
             {
                 foreach (Ball ball in balls)
                 {
-                    process(ball);
-                    System.Threading.Thread.Sleep(1000);
+                    if (ball.isDone == false)
+                    {
+                        process(ball);
+                        System.Threading.Thread.Sleep(1000);
+                    }
                 }
             }
 
@@ -38,9 +41,9 @@ namespace Big_Ball_Game
 
         private void process(Ball movingBall)
         {
-            Console.WriteLine("Moving Ball before moving: " + movingBall);
+            //Console.WriteLine("Moving Ball before moving: " + movingBall);
             movingBall.move(canvas);
-            Console.WriteLine("Moving Ball after moving: " + movingBall);
+            //Console.WriteLine("Moving Ball after moving: " + movingBall);
 
             foreach (Ball ball in balls)
             {
@@ -54,8 +57,8 @@ namespace Big_Ball_Game
                 if (crosssingDetected)
                 {
                     movingBall.swallow(ball);
-                    Console.WriteLine("Moving Ball After collision: " + movingBall);
-                    Console.WriteLine("Ball After collision: " + ball);
+                    //Console.WriteLine("Moving Ball After collision: " + movingBall);
+                    //Console.WriteLine("Ball After collision: " + ball);
                 }
             }
         }
@@ -65,7 +68,7 @@ namespace Big_Ball_Game
             bool isDone = true;
             foreach (Ball ball in balls)
             {
-                if(ball.isDone == false)
+                if(ball.ballType == Ball.BallType.REGULAR_BALL && ball.isDone == false)
                 {
                     return false;
                 }

@@ -48,10 +48,10 @@ namespace Big_Ball_Game
         {
             for(int i = 0; i < repellentBallsCount; i++)
             {
-                float radius = rnd.Next(1, 10);
+                int radius = rnd.Next(1, 10);
                 Position position = new Position(rnd.Next(canvas.width), rnd.Next(canvas.height));
                 Color color = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
-                Direction direction = new Direction(rnd.Next(5), rnd.Next(5), rnd.Next(1, 10));
+                Direction direction = new Direction(rnd.Next(1, 5), rnd.Next(1, 5), rnd.Next(1, 10));
 
                 RepellentBall ball = new RepellentBall(radius, position, color, direction);
 
@@ -63,7 +63,7 @@ namespace Big_Ball_Game
         {
             for (int i = 0; i < monsterBallsCount; i++)
             {
-                float radius = rnd.Next(1, 10);
+                int radius = rnd.Next(1, 10);
                 Position position = new Position(rnd.Next(canvas.width), rnd.Next(canvas.height));
                 Color color = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
                 Direction direction = new Direction(0, 0, rnd.Next(1, 10));
@@ -78,10 +78,10 @@ namespace Big_Ball_Game
         {
             for (int i = 0; i < regularBallsCount; i++)
             {
-                float radius = rnd.Next(1, 10);
+                int radius = rnd.Next(1, 10);
                 Position position = new Position(rnd.Next(canvas.width), rnd.Next(canvas.height));
                 Color color = Color.FromArgb(rnd.Next(255), rnd.Next(255), rnd.Next(255));
-                Direction direction = new Direction(rnd.Next(5), rnd.Next(5), rnd.Next(1, 10));
+                Direction direction = new Direction(rnd.Next(1, 5), rnd.Next(1, 5), rnd.Next(1, 10));
 
                 RegularBall ball = new RegularBall(radius, position, color, direction);
 

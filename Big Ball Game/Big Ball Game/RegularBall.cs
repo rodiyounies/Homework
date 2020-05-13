@@ -9,7 +9,7 @@ namespace Big_Ball_Game
 {
     class RegularBall : Ball
     {
-        public RegularBall(float radius, Position position, Color color, Direction direction) 
+        public RegularBall(int radius, Position position, Color color, Direction direction) 
             : base(radius, position, color, direction)
         {
             ballType = BallType.REGULAR_BALL;
@@ -17,12 +17,13 @@ namespace Big_Ball_Game
 
         public override string ToString()
         {
-            return "Regular Ball: radius = [" + base.radius + "], Position = [ " + base.position + "]," +
+            return "Regular Ball: id = [" + base.id + "], radius = [" + base.radius + "], Position = [ " + base.position + "]," +
                 ", Color = [" + base.color + "]," + "Direction = [" + direction + "]";
         }
 
         public override void move(Canvas canvas)
         {
+            Console.WriteLine("Regular Ball[{0}] is moving", this.id);
             if (isDone == true)
             {
                 return;
@@ -47,16 +48,24 @@ namespace Big_Ball_Game
             return BallType.REGULAR_BALL;
         }
 
-        /*
-         *  1. Regular ball with regular ball - the larger ball swallows the 
-smaller one, the small ball disappears from the system, the 
-large ball radius increases with the small ball radius, 
-the color of the large ball changes by combining the colors of 
-the two balls in proportion to their size (combination  colors are 
-done separately on each RGB component).
-         */
+        public override void swallow(Ball ball)
+        {
+            if(ball.GetType() == typeof(RegularBall))
+            {
+                swallow((RegularBall)ball);
+            } else if (ball.GetType() == typeof(MonsterBall))
+            {
+                swallow((MonsterBall)ball);
+            }
+            else if (ball.GetType() == typeof(RepellentBall))
+            {
+                swallow((RepellentBall)ball);
+            }
+        }
+               
         public void swallow(RegularBall ball)
         {
+            //Console.WriteLine("R vs. R");
             RegularBall eater, eaten;
             if(this.radius > ball.radius)
             {
@@ -69,13 +78,16 @@ done separately on each RGB component).
             }
 
             eaten.isDone = true;
+            Console.WriteLine("Terminated " + eaten.ballType + " Ball [ " + eaten.id + "]");
             eater.color = BallUtils.combineColors(eater, eaten);
             eater.radius += eaten.radius;
         }
 
         public void swallow(MonsterBall ball)
         {
+            //Console.WriteLine("R vs. M");
             this.isDone = true;
+            Console.WriteLine("Terminated " + this.ballType + " Ball [ " + this.id + "]");
             ball.color = BallUtils.combineColors(ball, this);
             ball.radius += this.radius;
 
@@ -83,6 +95,7 @@ done separately on each RGB component).
 
         public void swallow(RepellentBall ball)
         {
+            //Console.WriteLine("Reg vs. Rep");
             ball.color = BallUtils.combineColors(ball, this);
             this.direction.dx *= -1;
             this.direction.dy *= -1;
