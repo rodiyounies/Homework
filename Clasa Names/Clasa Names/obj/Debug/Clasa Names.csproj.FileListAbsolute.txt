@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Clasa Names\Clasa Names\bin\Debug\Clasa Names.exe.config
+C:\Users\EYO\source\repos\Clasa Names\Clasa Names\bin\Debug\Clasa Names.exe
+C:\Users\EYO\source\repos\Clasa Names\Clasa Names\bin\Debug\Clasa Names.pdb
+C:\Users\EYO\source\repos\Clasa Names\Clasa Names\obj\Debug\Clasa Names.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Clasa Names\Clasa Names\obj\Debug\Clasa Names.exe
+C:\Users\EYO\source\repos\Clasa Names\Clasa Names\obj\Debug\Clasa Names.pdb
