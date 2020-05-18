@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Clasa Stiva\Clasa Stiva\bin\Debug\Clasa Stiva.exe.config
+C:\Users\EYO\source\repos\Clasa Stiva\Clasa Stiva\bin\Debug\Clasa Stiva.exe
+C:\Users\EYO\source\repos\Clasa Stiva\Clasa Stiva\bin\Debug\Clasa Stiva.pdb
+C:\Users\EYO\source\repos\Clasa Stiva\Clasa Stiva\obj\Debug\Clasa Stiva.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Clasa Stiva\Clasa Stiva\obj\Debug\Clasa Stiva.exe
+C:\Users\EYO\source\repos\Clasa Stiva\Clasa Stiva\obj\Debug\Clasa Stiva.pdb
