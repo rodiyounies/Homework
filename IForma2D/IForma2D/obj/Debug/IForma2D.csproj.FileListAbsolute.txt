@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\IForma2D\IForma2D\bin\Debug\IForma2D.exe.config
+C:\Users\EYO\source\repos\IForma2D\IForma2D\bin\Debug\IForma2D.exe
+C:\Users\EYO\source\repos\IForma2D\IForma2D\bin\Debug\IForma2D.pdb
+C:\Users\EYO\source\repos\IForma2D\IForma2D\obj\Debug\IForma2D.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\IForma2D\IForma2D\obj\Debug\IForma2D.exe
+C:\Users\EYO\source\repos\IForma2D\IForma2D\obj\Debug\IForma2D.pdb
