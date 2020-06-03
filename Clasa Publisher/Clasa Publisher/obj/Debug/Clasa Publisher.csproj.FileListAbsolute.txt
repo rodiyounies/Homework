@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Clasa Publisher\Clasa Publisher\bin\Debug\Clasa Publisher.exe.config
+C:\Users\EYO\source\repos\Clasa Publisher\Clasa Publisher\bin\Debug\Clasa Publisher.exe
+C:\Users\EYO\source\repos\Clasa Publisher\Clasa Publisher\bin\Debug\Clasa Publisher.pdb
+C:\Users\EYO\source\repos\Clasa Publisher\Clasa Publisher\obj\Debug\Clasa Publisher.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Clasa Publisher\Clasa Publisher\obj\Debug\Clasa Publisher.exe
+C:\Users\EYO\source\repos\Clasa Publisher\Clasa Publisher\obj\Debug\Clasa Publisher.pdb
