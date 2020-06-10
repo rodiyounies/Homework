@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\Clasa Angajat\Clasa Angajat\bin\Debug\Clasa Angajat.exe.config
+C:\Users\EYO\source\repos\Clasa Angajat\Clasa Angajat\bin\Debug\Clasa Angajat.exe
+C:\Users\EYO\source\repos\Clasa Angajat\Clasa Angajat\bin\Debug\Clasa Angajat.pdb
+C:\Users\EYO\source\repos\Clasa Angajat\Clasa Angajat\obj\Debug\Clasa Angajat.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\Clasa Angajat\Clasa Angajat\obj\Debug\Clasa Angajat.exe
+C:\Users\EYO\source\repos\Clasa Angajat\Clasa Angajat\obj\Debug\Clasa Angajat.pdb
