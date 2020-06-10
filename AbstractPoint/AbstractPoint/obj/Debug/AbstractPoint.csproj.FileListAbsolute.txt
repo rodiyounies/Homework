@@ -1,0 +1,6 @@
+C:\Users\EYO\source\repos\AbstractPoint\AbstractPoint\bin\Debug\AbstractPoint.exe.config
+C:\Users\EYO\source\repos\AbstractPoint\AbstractPoint\bin\Debug\AbstractPoint.exe
+C:\Users\EYO\source\repos\AbstractPoint\AbstractPoint\bin\Debug\AbstractPoint.pdb
+C:\Users\EYO\source\repos\AbstractPoint\AbstractPoint\obj\Debug\AbstractPoint.csprojAssemblyReference.cache
+C:\Users\EYO\source\repos\AbstractPoint\AbstractPoint\obj\Debug\AbstractPoint.exe
+C:\Users\EYO\source\repos\AbstractPoint\AbstractPoint\obj\Debug\AbstractPoint.pdb
